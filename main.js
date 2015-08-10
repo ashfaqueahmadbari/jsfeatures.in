@@ -8,9 +8,9 @@ class JSfeatures extends BaseComponent {
     super()
   }
   render () {
-    return (<div>
-        <AppBar showMenuIconButton={false} title="JSfeatures IN" iconElementRight={<FlatButton label="Save" />} />
-        <div style={{'paddingTop':10}}/>
+    return (<div style={{'width': '1024', 'margin':'auto'}}>
+        <AppBar showMenuIconButton={false} title="JSfeatures IN" style={{'backgroundColor': '#046380'}} iconElementRight={<FlatButton label="Save" />} />
+        <div style={{'paddingTop':'10'}}/>
         <FeatureTabs />
         <AppBar showMenuIconButton={false} title="Copyright © 2015 - Hemanth.HM" />
     </div>);
